@@ -1,0 +1,17 @@
+1) https://nodejs.org/en/download/
+Install nodejs
+2) Copy install location, follow the installation
+C:\Program Files\nodejs\
+3)Restart the system
+4)Open command line
+npm install -g react-native-cli
+5) Navigate the directory where you want to create the first React native project
+react-native init "WelcomeProject"
+6) Navigate to "WelcomeProject"
+npm install
+react-native run android
+7) In "WelcomeProject" go inside the Android project, and create local.properties file and add below line
+sdk.dir="Your SDK path"
+If you are feeling difficulty here copy this local.properties file from any other Android project and paste it here
+8) You can skip the step 7 by, opening the Android project directly by Android Studio
+
